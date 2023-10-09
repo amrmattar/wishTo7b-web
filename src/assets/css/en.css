@@ -1,0 +1,47 @@
+.title1,.title2{
+    text-align: start !important;
+}
+@media (max-width:570px) {
+    .close-freinds-sub-title{
+        font-size: 22px !important;
+    }}
+    @media (max-width: 330px){
+        .avatar-one,.avatar-two{
+            top: 34% !important;
+        }
+      
+    }
+    @media (min-width: 279px) and (max-width: 359px){
+        .avatar-three,.avatar-four{
+            top: 95% !important;
+        }
+      
+    }
+    .present-sub-title{
+        text-align: left !important;
+    }
+    .invite-friends-title{
+        text-align: left !important;
+        padding: 0 2rem !important;
+    }
+    .invite-friends-sub-title{
+        text-align: left !important;
+    }
+    @media (max-width:400px) {
+        .invite-friends-title{
+           font-size: 30px !important;
+        }
+        .invite-friends-sub-title{
+            text-align: center !important;
+            font-size: 17px !important;
+        }
+        .stories-title{
+            font-size: 30px !important;
+            margin-top: 20px;
+            margin-bottom: 20px !important;
+        }
+        .share-audio-title{
+            font-size: 30px !important;
+        }
+       
+    }

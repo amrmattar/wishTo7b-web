@@ -1,0 +1,65 @@
+.invite-friends {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.invite-friends .pink-layer {
+  background: linear-gradient(111.34deg, #DFAAEE 0.04%, #F09388 100.04%);
+  border-radius: 40px;
+  background-repeat: no-repeat;
+  height: 92vh;
+  width: 81vw;
+  margin: auto;
+}
+
+.invite-friends .blue-layer {
+  background: linear-gradient(116.73deg, #3FBDEE 0%, #8D95CF 54.09%, #6616DD 100%);
+  background-repeat: no-repeat;
+  height: 86vh;
+  width: 94vw;
+  border-radius: 40px;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.invite-friends-title {
+  /* font-family: 'Noto Sans Arabic'; */ font-family: "Cairo",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  padding: 2rem;
+  text-align: right;
+  color: white;
+}
+
+.invite-friends-sub-title {
+  /* font-family: 'Noto Sans Arabic'; */ font-family: "Cairo",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: right;
+  color: white;
+  padding: 2rem;
+}
+
+.cone-img {
+  height: 80vh;
+}
+
+@media (min-width: 0px) and (max-width: 1024px) {
+  .cone-img {
+    height: 40vh;
+  }
+}
+
+@media (max-width: 400px) {
+  .title1 {
+    font-size: 30px !important;
+  }
+}

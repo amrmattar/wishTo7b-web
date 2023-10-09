@@ -1,0 +1,210 @@
+.close-freinds {
+    background-image: url('~src/assets/images/app/rectangle-grediant.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (min-width: 320px) and (max-width: 820px) {
+        height: auto;
+
+    }
+
+    &-title {
+        // font-family: 'Noto Sans Arabic';
+        font-family: "Cairo",sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 7vw;
+        line-height: 110%;
+        text-align: center;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        @media (min-width: 320px) and (max-width: 820px) {
+            height: auto;
+            font-size: 15vw;
+        }
+    }
+
+    &-title-span {
+        color: #80D2ED;
+    }
+
+}
+
+
+.close-freinds-sub-title {
+    // font-family: 'Noto Sans Arabic';
+    font-family: "Cairo",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+    /* or 38px */
+    text-align: center;
+    /* Neutral/0 */
+    color: #FFFFFF;
+}
+
+.avatar-one {
+    box-sizing: border-box;
+    width: 154px;
+    height: 154px;
+    position: absolute;
+    top: 27.67%;
+    bottom: 29.85%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: 10%;
+    background-size: contain;
+    background-image: url('~src/assets/images/app/avatar-1.png');
+    background-repeat: no-repeat;
+
+    @media (min-width: 823px) and (max-width: 1024px) {
+        margin-right: 5%;
+    }
+
+    @media (min-width: 279px) and (max-width: 359px) {
+        margin-right: 2%;
+        width: 65px;
+        height: 65px;
+        display: block !important;
+    }
+
+    @media (min-width: 360px) and (max-width: 822.99px) {
+        margin-right: 5%;
+        width: 70px;
+        height: 70px;
+        display: block !important;
+    }
+
+
+}
+
+
+
+.avatar-two {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 42.72%;
+    bottom: 0;
+    width: 130px;
+    height: 130px;
+    margin-left: 10%;
+    margin-right: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('~src/assets/images/app/avatar-2.png');
+
+    @media (min-width: 823px) and (max-width: 1024px) {
+        margin-left: 5%;
+    }
+
+    @media (min-width: 360px) and (max-width: 822.99px) {
+        margin-left: 5%;
+        top: 33%;
+        width: 70px;
+        height: 70px;
+        display: block !important;
+    }
+
+    @media (min-width: 279px) and (max-width: 359px) {
+        top: 33%;
+        width: 60px;
+        height: 60px;
+        display: block !important;
+        margin-left: 2%;
+    }
+}
+
+
+.avatar-three {
+    box-sizing: border-box;
+    position: absolute;
+    top: 85%;
+    bottom: 6%;
+    left: 0;
+    right: 0;
+    width: 127.07px;
+    height: 127.07px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-left: auto;
+    margin-right: 15%;
+    background-image: url('~src/assets/images/app/avatar-3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    @media (min-width: 823px) and (max-width: 1024px) {
+        margin-right: 10%;
+    }
+
+    @media (min-width: 360px) and (max-width: 822.99px) {
+        margin-right: 10%;
+        width: 70px;
+        height: 70px;
+        top: 60%;
+        display: block !important;
+    }
+
+    @media (min-width: 279px) and (max-width: 359px) {
+        margin-right: 7%;
+        top: 97%;
+        width: 65px;
+        height: 65px;
+        display: block !important;
+    }
+
+
+}
+
+.avatar-four {
+    box-sizing: border-box;
+    position: absolute;
+    top: 85%;
+    bottom: 6%;
+    left: 0;
+    right: 0;
+    width: 128px;
+    height: 128px;
+    margin-left: 20%;
+    margin-right: auto;
+    background-image: url('~src/assets/images/app/avatar-4.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 3px solid white;
+
+    @media (min-width: 823px) and (max-width: 1024px) {
+        margin-left: 10%;
+        top: 89%;
+    }
+
+    @media (min-width: 360px) and (max-width: 822.99px) {
+        margin-left: 10%;
+        top: 60%;
+        width: 70px;
+        height: 70px;
+        display: block !important;
+    }
+
+
+    @media (min-width: 279px) and (max-width: 359px) {
+        margin-left: 7%;
+        top: 97%;
+        width: 65px;
+        height: 65px;
+        display: block !important;
+    }
+}

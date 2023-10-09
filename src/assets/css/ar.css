@@ -1,0 +1,85 @@
+.nav-brand {
+    margin-left: auto;
+    margin-top: 15px;
+}
+.nav-download {
+    margin-right: auto;
+    margin-top: 15px;
+}
+@media (max-width:330px) {
+    .app-one-friends{
+        font-size: 41px;
+    }
+    .app-one-social{
+        font-size: 41px;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 822.99px){
+    .avatar-three,.avatar-four{
+        top: 70% !important;
+    }
+  
+}
+@media (max-width: 330px){
+    .avatar-three,.avatar-four{
+        top: 95% !important;
+    }
+  
+}
+@media (min-width: 550px) and (max-width: 822.99px){
+   
+    .close-freinds-title{
+        font-size: 47px !important;
+        margin-top: 20px !important;
+    }
+}
+@media (min-width: 480px) and (max-width: 550px){
+   
+    .close-freinds-title{
+        font-size: 38px !important;
+    }
+}
+@media(max-width: 480px){
+   
+    .close-freinds-title{
+        font-size: 22px !important;
+    }
+}
+@media (max-width:570px) {
+    .close-freinds-sub-title{
+        font-size: 22px !important;
+    }}
+@media (max-width:550px) {
+    .close-freinds-sub-title{
+        font-size: 20px !important;
+    }
+    .avatar-three,.avatar-four{
+        top: 93% !important;
+    }
+}
+.invite-friends-title{
+    padding: 0 2rem !important;
+}
+@media (max-width:400px) {
+    .invite-friends-title{
+       font-size: 30px !important;
+    }
+    .invite-friends-sub-title{
+        text-align: center !important;
+        font-size: 17px !important;
+    }
+    .stories-title{
+        font-size: 30px !important;
+        margin-top: 20px;
+        margin-bottom: 20px !important;
+    }
+    .share-audio-title{
+        font-size: 30px !important;
+    }
+    .share-audio-sub-title{
+        padding:  2rem 0 !important;
+        text-align: start !important;
+    }
+}

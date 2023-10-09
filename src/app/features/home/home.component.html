@@ -1,0 +1,67 @@
+<!-- Navbar STart -->
+<header id="topnav" class="defaultscroll" style="position: absolute;">
+    <div class="container">
+
+
+        <div class="menu-extras">
+            <div class="menu-item">
+                <!-- Mobile menu toggle-->
+                <a class="navbar-toggle" (click)="toggleMenu()" [ngClass]="{'open': isCondensed === true}">
+                    <div class="lines">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </a>
+                <!-- End mobile menu toggle-->
+            </div>
+        </div>
+
+        <div id="navigation">
+            <!-- Navigation Menu-->
+            <ul class="navigation-menu">
+                <div class="nav-brand">
+                    <span>{{"Wish" |translate}}</span>
+                </div>
+               
+                <li class="has-submenu text-center" (click)="toggleMenu();currentSection='home'"
+                    [ngClass]="{'active':currentSection === 'home'}">
+                    <a  (click)="switchLanguage()" routerLink='/' [ngxScrollTo]="'#home'">
+                        {{ translate.currentLang === 'en' ? 'Arabic' : 'انجليزي' }}
+                    </a>
+
+                </li>
+                <li class="has-submenu text-center" (click)="toggleMenu();currentSection='home'"
+                    [ngClass]="{'active':currentSection === 'home'}">
+                    <a routerLink='/' [ngxScrollTo]="'#home'">{{"Home" |translate}}</a>
+                </li>
+
+                <li class="has-submenu text-center" (click)="toggleMenu();currentSection='home'"
+                    [ngClass]="{'active':currentSection === 'home'}">
+                    <a routerLink='/' [ngxScrollTo]="'#download-two'">{{"About" |translate}}</a>
+                </li>
+
+                <li class="has-submenu text-center" (click)="toggleMenu();currentSection='home'"
+                    [ngClass]="{'active':currentSection === 'home'}">
+                    <a routerLink='/' [ngxScrollTo]="'#share-stories'">{{"App" |translate}}</a>
+                </li>
+                <div class="nav-download text-center">
+                    <button type="button" class="btn" [ngxScrollTo]="'#download-three'">
+                        <span class="btn-span">{{"Download" |translate}}</span>
+                    </button>
+                </div>
+               
+        </ul>
+        <!--end navigation menu-->
+    </div>
+
+    <!--end navigation-->
+    </div>
+    <!--end container-->
+</header>
+<router-outlet></router-outlet>
+
+<!-- <footer>
+    <p class="text-center">جميع الحقوق محفوظة لمنصة إياس القانونية ©</p>
+
+</footer> -->

@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import '../src/assets/css/bootstrap.min.css';
+@import "assets/scss/app.scss";
+/* @import "~ngx-lightbox/lightbox.css"; */
+
+/* .swiper-button-next:after,
+.swiper-container-rtl .swiper-button-prev:after {
+  content: unset !important;
+} */
+@font-face {
+  font-family: "Cairo";
+  src: local("Cairo"), url(assets/fonts/Cairo/Cairo-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: 'Cairo';
+  src: url('assets/fonts/Cairo/Cairo-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Import the Cairo Bold font */
+@font-face {
+  font-family: 'Cairo Bold';
+  src: url('assets/fonts/Cairo/Cairo-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Apply the Cairo font to specific elements */
+body {
+  font-family: 'Cairo', sans-serif;
+}
+.swiper-button-prev:after {
+  content: none !important;
+}
+
+.p-sm-6 {
+  @media (min-width: 576px) {
+    padding: 4rem !important;
+    padding-top: 4rem !important;
+    padding-right: 4rem !important;
+    padding-bottom: 4rem !important;
+    padding-left: 4rem !important;
+  }
+}

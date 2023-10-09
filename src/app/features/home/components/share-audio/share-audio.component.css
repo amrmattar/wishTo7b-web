@@ -1,0 +1,88 @@
+.share-audio {
+  background-image: url("~src/assets/images/app/rectangle-grey.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  position: relative;
+  width: 94%;
+  height: 100vh;
+  border-radius: 49px;
+}
+
+.share-audio-title {
+  font-family: "Cairo",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  padding: 2rem;
+  text-align: right;
+  color: #131313;
+}
+
+@media (max-width: 400px) {
+  .share-audio-title {
+    font-size: 30px !important;
+  }
+}
+
+.share-audio-sub-title {
+  font-family: "Cairo",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: right;
+  color: #383838;
+  padding: 2rem;
+}
+
+@media (max-width: 380px) {
+  .share-audio-sub-title {
+    padding: 2rem 0 !important;
+    text-align: start !important;
+  }
+}
+
+.share-audio-img {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  max-height: 425px;
+  height: 50vh;
+  margin: auto;
+}
+
+@media (min-width: 0px) and (max-width: 1024px) {
+  .share-audio-img {
+    max-height: 275px;
+  }
+}
+
+.share-audio-img .video-clip-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+}
+
+.share-audio-img .music-player-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 70%;
+}
+
+.share-audio-title-container {
+  display: flex;
+  align-items: center;
+  height: fit-content;
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  .share-audio-title-container {
+    align-items: start;
+  }
+}
